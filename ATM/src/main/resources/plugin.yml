@@ -1,0 +1,14 @@
+name: ATM
+version: '${project.version}'
+main: org.atm.ATM
+api-version: '1.20'
+author: ironPhil24k
+commands:
+  atm:
+    description: Gérer votre compte en banque de minerais.
+    usage: "/<command> <deposit|withdraw> [amount]"
+  atmgui:
+    description: Ouvre l'interface de gestion de compte.
+    usage: "/<command>"
+
+
